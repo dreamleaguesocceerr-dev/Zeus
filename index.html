@@ -1,0 +1,189 @@
+‎<!DOCTYPE html>
+‎<html lang="en">
+‎<head>
+‎<meta charset="UTF-8">
+‎<meta name="viewport" content="width=device-width, initial-scale=1.0">
+‎<title>ZEUS Clan</title>
+‎
+‎<style>
+‎/* RESET */
+‎* {
+‎    margin: 0;
+‎    padding: 0;
+‎    box-sizing: border-box;
+‎}
+‎
+‎/* BODY */
+‎body {
+‎    font-family: 'Segoe UI', Tahoma, sans-serif;
+‎    background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+‎    color: #eaeaea;
+‎    line-height: 1.7;
+‎    overflow-x: hidden;
+‎}
+‎
+‎/* ANIMATIONS */
+‎@keyframes fadeUp {
+‎    from { opacity: 0; transform: translateY(40px); }
+‎    to { opacity: 1; transform: translateY(0); }
+‎}
+‎
+‎@keyframes glow {
+‎    0% { text-shadow: 0 0 5px #00f0ff; }
+‎    50% { text-shadow: 0 0 20px #00f0ff; }
+‎    100% { text-shadow: 0 0 5px #00f0ff; }
+‎}
+‎
+‎/* HEADER */
+‎header {
+‎    min-height: 100vh;
+‎    display: flex;
+‎    flex-direction: column;
+‎    justify-content: center;
+‎    align-items: center;
+‎    text-align: center;
+‎    padding: 20px;
+‎    background: radial-gradient(circle, #111, #000);
+‎}
+‎
+‎header h1 {
+‎    font-size: 3rem;
+‎    animation: glow 3s infinite;
+‎    letter-spacing: 3px;
+‎}
+‎
+‎header p {
+‎    margin-top: 15px;
+‎    font-style: italic;
+‎    opacity: 0.9;
+‎}
+‎
+‎/* SECTIONS */
+‎section {
+‎    max-width: 1000px;
+‎    margin: auto;
+‎    padding: 60px 20px;
+‎}
+‎
+‎.box {
+‎    background: rgba(255, 255, 255, 0.05);
+‎    border: 1px solid rgba(0, 240, 255, 0.2);
+‎    border-radius: 12px;
+‎    padding: 25px;
+‎    margin-bottom: 30px;
+‎    animation: fadeUp 1s ease forwards;
+‎}
+‎
+‎/* HEADINGS */
+‎h2 {
+‎    color: #00f0ff;
+‎    margin-bottom: 15px;
+‎}
+‎
+‎/* LIST */
+‎ul {
+‎    padding-left: 20px;
+‎}
+‎
+‎li {
+‎    margin-bottom: 8px;
+‎}
+‎
+‎/* BUTTON */
+‎.join-btn {
+‎    display: inline-block;
+‎    margin-top: 15px;
+‎    padding: 12px 25px;
+‎    color: #000;
+‎    background: #00f0ff;
+‎    border-radius: 30px;
+‎    text-decoration: none;
+‎    font-weight: bold;
+‎    transition: 0.3s;
+‎}
+‎
+‎.join-btn:hover {
+‎    background: #fff;
+‎    transform: scale(1.05);
+‎}
+‎
+‎/* FOOTER */
+‎footer {
+‎    text-align: center;
+‎    padding: 20px;
+‎    background: #000;
+‎    font-size: 0.9rem;
+‎    opacity: 0.7;
+‎}
+‎
+‎/* MOBILE */
+‎@media (max-width: 600px) {
+‎    header h1 {
+‎        font-size: 2.2rem;
+‎    }
+‎}
+‎</style>
+‎</head>
+‎
+‎<body>
+‎
+‎<header>
+‎    <h1>ZEUS</h1>
+‎    <p>"Respect the grind. Fear the squad."</p>
+‎</header>
+‎
+‎<section>
+‎
+‎    <div class="box">
+‎        <p>
+‎            Welcome to <strong>ZEUS</strong> — a passionate group of gamers united by skill, strategy, and loyalty.
+‎            Whether it's dominating in <strong>Bloodstrike</strong> or building bonds as a team,
+‎            we play to win and grow.
+‎        </p>
+‎    </div>
+‎
+‎    <div class="box">
+‎        <h2>📖 About Us</h2>
+‎        <p>
+‎            ZEUS was founded in <strong>2026</strong>.
+‎            We focus on ranking up, climbing the server, and dominating lobbies and mobile tournaments.
+‎        </p>
+‎        <p>
+‎            Our goal is to create a strong, respectful, and competitive team where every member matters.
+‎        </p>
+‎    </div>
+‎
+‎    <div class="box">
+‎        <h2>Members</h2>
+‎        <ul>
+‎            <li><strong>Clan Leader:</strong> Ind-Tangiro</li>
+‎            <li><strong>Co-Leader:</strong> TANGIRO</li>
+‎        </ul>
+‎    </div>
+‎
+‎    <div class="box">
+‎        <h2>🚀 Join Us</h2>
+‎        <p>We’re always looking for skilled and loyal players to join the family.</p>
+‎        <ul>
+‎            <li>Active player</li>
+‎            <li>Respectful & team-focused</li>
+‎            <li>Must have <strong>BLOODSTRIKE</strong></li>
+‎        </ul>
+‎        <a href="#contact" class="join-btn">Join ZEUS</a>
+‎    </div>
+‎
+‎    <div class="box" id="contact">
+‎        <h2>Contact</h2>
+‎        <p>Got questions, suggestions, or want to collab?</p>
+‎        <p><strong>Whatsapp:</strong> 08168002797</p>
+‎    </div>
+‎
+‎</section>
+‎
+‎<footer>
+‎    <p>© 2026 ZEUS Clan. All Rights Reserved.</p>
+‎</footer>
+‎
+‎</body>
+‎</html>
+‎
